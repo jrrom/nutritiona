@@ -1,23 +1,13 @@
-# ReScript Project Template
+# Nutritiona
+Nutrition for the people
 
-- [Installation](../../README.md)
+![image](https://github.com/user-attachments/assets/64907e1a-507a-406b-b7af-60cd463002c4)
+![image](https://github.com/user-attachments/assets/5fa8f141-e34a-4cf5-8320-da40877e76ff)
 
-Official ReScript starter template.
 
-## Installation
-
-```sh
-npm install
-```
-
-## Build
-
-- Build: `npm run res:build`
-- Clean: `npm run res:clean`
-- Build & watch: `npm run res:dev`
+A simple nutrition calculator made for India 🇮🇳
 
 ## Run
 
-```sh
-node src/Demo.res.js
-```
+- Build: `npm run build`
+- Serve: `npm run serve`
