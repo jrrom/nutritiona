@@ -1,0 +1,21 @@
+{
+  "name": "nutritiona",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "rescript && esbuild --bundle lib/es6/src/Main.res.js --outdir=dist/js --minify",
+    "serve": "esbuild --servedir=dist",
+    "clean": "rescript clean && rm -r dist/js"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/core": "^1.6.0",
+    "@rescript/react": "^0.13.0",
+    "esbuild": "^0.24.0",
+    "rescript": "^11.1.4",
+    "rescript-webapi": "^0.9.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nutritiona",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": false 
+  },
+  "jsx": { "version": 4 },
+  "suffix": ".res.js",
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react",
+    "rescript-webapi"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ]
+}
